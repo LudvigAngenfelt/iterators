@@ -3,14 +3,14 @@ from exercises.iterators import Cubes, Primes, Fibonacci, Alphabet, Permutations
 import json
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_cubes_is_iterator():
     assert '__init__' in dir(Cubes)
     iterator = iter(Cubes())
     assert '__next__' in dir(iterator)
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_cubes():
     c = iter(Cubes())
     for i in range(1, 1001):
@@ -34,14 +34,14 @@ def test_primes():
         assert next(p) == prime
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_fibonnaci_is_iterator():
     assert '__init__' in dir(Fibonacci)
     iterator = iter(Fibonacci())
     assert '__next__' in dir(iterator)
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_fibonacci():
     with open('tests/data_fibonacci.json') as file:
         data = json.load(file)

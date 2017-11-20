@@ -22,7 +22,7 @@ def primes():
     pass
 
 
-def fibonacci():
+def fibonacci():z
     """Implementera en generator som returnerar de berömda fibonacci-talen.
 
     Fibonaccis talserie börjar med 0 och 1. Nästa tal är sedan summan av de

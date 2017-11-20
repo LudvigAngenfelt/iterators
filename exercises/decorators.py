@@ -15,7 +15,7 @@ def memoize(F):
 def rovarsprak(F):
     """Översätt utdata till rövarspråket.
 
-    Funktionen som dekoreras kan antas returnera textsträngar. Dessa översätts
+    Funktionen som dekoreras kan antas returnera textsträngar.Dessa översätts
     av decoratorn till rövarspråket.
     """
     pass
